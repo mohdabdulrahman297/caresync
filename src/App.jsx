@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className="mx-4 sm:mx-[10%]">
       <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/" element={<Home />}> </Route>
           <Route path="/doctors" element={<Doctors />}></Route>
           <Route path="/doctors/:speciality" element={<Doctors />}></Route>
           <Route path="/login" element={<Login />}></Route>

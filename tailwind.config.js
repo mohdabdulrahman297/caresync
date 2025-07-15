@@ -9,8 +9,9 @@ export default defineConfig({
   theme: {
     extend: {
       colors: {
-        primary: '#28a745', // Your green hex code
+        primary: '#28a745', 
       },
+      
     },
   },
   plugins: [],

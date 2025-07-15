@@ -6,3 +6,9 @@
 .active hr{
     @apply block;
 }
+
+
+/* to hide the scroll bar */
+::-webkit-scrollbar {
+  @apply hidden;
+}

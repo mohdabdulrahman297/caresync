@@ -20,13 +20,13 @@ const Contact = () => {
         <div className="flex flex-col justify-center items-start gap-6">
           <p className="font-semibold text-lg text-gray-600">OUR OFFICE</p>
           <p className="text-gray-500">
-            54709 Willms Station <br /> Suite 350, Washington, USA
+            55403 Marquette Ave <br /> , Minnesota, USA
           </p>
           <p className="text-gray-500">
             Tel: (612) 213‑6720 <br /> Email: abdulrahmanmohd297@gmail.com
           </p>
           <p className="font-semibold text-lg text-gray-600">
-            CAREERS AT PRESCRIPTO
+            CAREERS AT CARESYNC
           </p>
           <p className="text-gray-500">
             Learn more about our teams and job openings.

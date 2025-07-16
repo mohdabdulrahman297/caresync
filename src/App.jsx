@@ -9,6 +9,8 @@ import MyAppointments from "./pages/MyAppointments";
 import Contact from "./pages/Contact";
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Appointment from './pages/Appointment';
 
 
 
@@ -27,8 +29,12 @@ const App = () => {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/my-profile" element={<MyProfile />}></Route>
           <Route path="/my-appointments" element={<MyAppointments />}></Route>
+          <Route path="/appointment/:docId" element={<Appointment />}></Route>
+          {/* Add more routes as needed */}
+          {/* Catch-all route for 404 Not Found */}
           <Route path="*" element={<div>Not found</div>} />
         </Routes>
+        <Footer />
     </div>
   )
 }
